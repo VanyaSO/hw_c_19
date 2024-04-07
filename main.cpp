@@ -17,7 +17,7 @@ int main() {
     delete[] str;
     str3.show();
 
-    cout << "Amount strings: " << MyString::getCountObj();
+    cout << "Number of lines: " << MyString::getCountObj();
 
     return 0;
 }
