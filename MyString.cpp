@@ -49,4 +49,9 @@ void MyString::show() {
     cout << this->string << endl << endl;
 }
 
+MyString::~MyString()
+{
+    delete[] string;
+}
+
 

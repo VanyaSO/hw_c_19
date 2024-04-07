@@ -16,6 +16,7 @@ public:
     static char* getInputString();
     static int getCountObj();
     void show();
+    ~MyString();
 };
 
 #endif
