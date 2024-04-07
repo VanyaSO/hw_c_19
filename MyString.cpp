@@ -51,7 +51,10 @@ void MyString::show() {
 
 MyString::~MyString()
 {
-    delete[] string;
+    if (this->string != nullptr)
+    {
+        delete[] this->string;
+    }
 }
 
 
